@@ -7,12 +7,15 @@ have to really read this once.
 
 % installation %
 with gem:
-  $ gem install mixico -s http://gemcutter.org
+  $ gem install mixico 
 
 without:
   $ ruby setup.rb config
   $ ruby setup.rb setup
   $ sudo ruby setup.rb install
+
+% documentation %
+http://rubydoc.info/github/rkh/mixico/master/file/README
 
 % source code %
 mixico is written in c.  it is very quick (basically atomic.)
@@ -175,5 +178,5 @@ no sign of the mixin at all.
 Until _why might reappear someday, this project is maintained by Konstantin Haase (rkh).
 konstantin.mailinglists <at> googlemail <dot> com
 http://github.com/rkh/mixico
-* updated for Ruby 1.9 by banisterfiend
+* updated for Ruby 1.9 + other changes by banisterfiend
 http://github.com/banister
